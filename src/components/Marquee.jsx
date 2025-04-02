@@ -29,7 +29,7 @@ const Marquee = () => {
             key={index}
             src={image}
             alt={`Marquee image ${index + 1}`}
-            className="h-20 mx-4 object-contain"
+            className="h-32 mx-4 object-contain"
           />
         ))}
         {/* Duplicate images for seamless loop */}
@@ -38,7 +38,7 @@ const Marquee = () => {
             key={`duplicate-${index}`}
             src={image}
             alt={`Marquee image ${index + 1}`}
-            className="h-20 mx-4 object-contain"
+            className="h-32 mx-4 object-contain"
           />
         ))}
       </div>

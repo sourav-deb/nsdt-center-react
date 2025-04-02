@@ -10,7 +10,7 @@ module.exports = {
         'georgia': ['Georgia', 'Times New Roman', 'Times', 'serif'],
       },
       animation: {
-        marquee: 'marquee 25s linear infinite',
+        marquee: 'marquee 4s linear infinite',
       },
       keyframes: {
         marquee: {
