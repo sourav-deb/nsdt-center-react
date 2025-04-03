@@ -32,7 +32,7 @@ const GridSection = () => {
   return (
     <section className="py-16 px-4">
       <div className="mx-auto">
-        <div className="flex flex-col md:flex-row gap-8 h-full">
+        <div className="flex flex-col md:flex-row gap-8 min-h-[600px]">
           {/* First Column - 50% width on desktop */}
           <div className="w-full md:w-1/2 flex flex-col justify-between h-full">
             <div>
@@ -53,8 +53,8 @@ const GridSection = () => {
           </div>
 
           {/* Second Column - 50% width on desktop with 2x2 grid */}
-          <div className="w-full md:w-1/2 h-full flex items-center justify-center">
-            <div className="grid grid-cols-2 gap-4 h-auto w-full my-auto">
+          <div className="w-full md:w-1/2 flex items-center">
+            <div className="grid grid-cols-2 gap-4 w-full">
               {gridCards.map((card) => (
                 <div
                   key={card.id}
